@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let flashGb = parseFloat(prompt("Enter here size of flash drive in GB:"));
+        let flashMb = flashGb * 1024;
+        let filesCount = Math.floor(flashMb / 820);
+        alert("Number of files that will fit on the flash drive: " + filesCount);
+    </script>
+</body>
+</html>
